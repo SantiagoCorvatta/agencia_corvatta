@@ -273,7 +273,7 @@ h4{
     }
     footer{
         display: grid;
-        grid-template-rows: 225px;
+        grid-template-rows: 450px;
     }  
     
 }
