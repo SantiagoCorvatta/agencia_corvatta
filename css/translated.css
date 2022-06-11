@@ -12,7 +12,7 @@ body {
   background-size: cover;
   background-position: center; }
 
-nav a {
+.fs-5, .div-p {
   font-size: 20px; }
 
 .logo-header {
@@ -40,7 +40,7 @@ header {
   .nav-index ul li:hover {
     background-color: #e47e2b; }
   .nav-index ul a {
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     font-family: monospace;
@@ -65,8 +65,7 @@ footer {
   display: inline-block; }
 
 .div-p {
-  color: #fff;
-  font-size: 15px; }
+  color: #fff; }
 
 #video {
   width: 100%; }
@@ -115,8 +114,10 @@ footer {
   li {
     padding: 2rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 0; }
+    align-items: flex-start;
+    gap: 0; }
   #check:checked ~ ul {
     left: 0; }
   footer {

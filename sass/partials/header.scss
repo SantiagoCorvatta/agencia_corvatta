@@ -1,6 +1,7 @@
-nav a {
+.fs-5{
     font-size: 20px;
 }
+
 
 .logo-header{
     width: 50px;
@@ -28,10 +29,10 @@ header{
         list-style: none;
     }
     li:hover{
-        background-color: #e47e2b;
+        background-color: map-get($colors , alternative )
     }
     a{
-    color: white;
+    color: map-get($colors, secondary );
     font-weight: bold;
     text-transform: uppercase;
     font-family: monospace;

@@ -29,9 +29,8 @@
     }
         li{
             padding: 2rem;
-            display: flex;
-            justify-content: center;
-            margin: 0;  
+            @include flex (row, center, flex-start, 0)            
+          
     }
     
     #check:checked ~ ul{
@@ -43,6 +42,7 @@
     }  
     
 }
+
 @media (max-width:800px){
     .back-main-salidas{
         display: grid;
