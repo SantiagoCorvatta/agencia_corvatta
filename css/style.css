@@ -100,7 +100,7 @@ header{
 
 /* experiencias */
 
-.card {
+/* .card {
     position: relative;
     width: 220px;
     height: 220px;
@@ -145,9 +145,9 @@ header{
     color: #fff;
     background: rgba(0,0,0,.4);
     text-align: center;
-}
+} */
 
-.cardexp .back {
+/* .cardexp .back {
     transform: perspective(600px) rotateY(180deg);
     background: #1d1d1d;
     padding: 15px;
@@ -167,9 +167,9 @@ header{
 
 .cardexp .back .link a {
     color: #f3f3f3;
-}
+} */
 
-.cardexp .back h3 {
+/* .cardexp .back h3 {
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 4px;
@@ -178,9 +178,9 @@ header{
 }
 .h3, h3 {
     font-size: 1.3rem;
-}
+} */
 
-.cardexp .back p {
+/* .cardexp .back p {
     letter-spacing: 1px;
     font-size: 0.85rem;
 } 
@@ -191,11 +191,11 @@ header{
 
 .cardexp:hover .back {
     transform: perspective(600px) rotateY(360deg);
-}
+} */
 /* Fin estilos Experiencias */
 
 /* Salidas */
-.country{
+/* .country{
     display: flex;
     justify-content: center;    
     background-color: rgba(255, 255, 255, 0.342);
@@ -209,7 +209,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     
-}
+} */
 /* Fin estilos Salidas */
 
 /* Contacto */
@@ -236,7 +236,7 @@ header{
 
 /* Nosotros */
 
-.nosotros h2{
+/* .nosotros h2{
     display: flex;
    justify-content: center;
    margin: 31px;
@@ -249,7 +249,7 @@ header{
     font-size: 20px;
     margin: 50px;
     font-family: 'Comfortaa', cursive;
-    /* background-color: #464646cb; */
+    
     
 }
 
@@ -263,7 +263,7 @@ h4{
     margin: auto;
    
     
-}
+} */
 
 
 
@@ -328,7 +328,8 @@ h4{
 
 /* Estilos desafio Github */
 
-main {
+
+/* main {
     width: 100%;
     display: flex;
     align-items: center;
@@ -365,20 +366,20 @@ main {
 .icon:hover:nth-child(4) {
     background-color: #1da1f2;
     box-shadow:  0 0 20px #1da1f2 ;
-}
+} */
 
-.icon i {
+/* .icon i {
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1.7rem;
-}
+} */
 
-svg circle {
+/* svg circle {
     transition: all .8s ease-in-out;
-}
+} */
 
 /* Fin estilos Desafio Github */
 
